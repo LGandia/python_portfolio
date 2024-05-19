@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Report page</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/b999619780.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--top button-->
+    <a href="main_index.html" class="button_resume">Back to resume </a>
+    <!--header-->
+    <header class="header_resume">
+        <h1 class="name_resume"> ELIZABETH <span class="surname_resume">ANTANANARIVO</span></h1>
+    </header>
+    <article>
+        <h3>TOP THREE CHALLENGES IN INPLEMENTATION</h3>
+        <ol>
+            <li><h4>Using and creating Flexboxes</h4>
+
+            Previously having very little experience with CSS and HTML it was a challenge to 
+            tackle the implementation and use of flexboxes, and I am also not very good with object 
+            oriented programing outside of the basics used in Pygame which was used in my A-level project.
+            This created a big challenge as I was unsure how to set up the container and each individual box.</li>
+
+            <li><h4>Placing and editing the footer</h4>
+
+            In the resume, due to the invisible flexboxes, it was hard to find the right place to put the footer,
+            as due to the different types of flex orders and wrappers I used, the footer would always shift to a
+            different row or column than I intended. Another challenge with the footer was setting up a button that worked,
+            and placing down the icons; all in the right place and alignment. I also found it particularly challenging
+            to find a way to style the icons, and make both interactive with the lack of JavaScript</li>
+
+            <li><h4>Adjusting the header to overlap with the image</h4>
+
+            The flexboxes stop the header from being able to overlap with other elements, and taking the header 
+            out of the flex container shifts the position of everything, similarly to the footer. However, unlike the footer, 
+            by taking out the header from the container, it would cause it to size up significantly and also create a new row/column 
+            and still not overlap with the elements I wished it did. This also caused the flexboxes under the heading to shift up and 
+            the width of the boxes to decrease, making the text in education to overlap with each other.</li>
+
+        </ol>
+    </article>
+    <article>
+        <h3>HOW I MANAGED THE CHALLENGES</h3>
+        <ol>
+            <li><h4>Flexboxes</h4>
+
+            Through a lot of research and analysing other people's codes, I was able to figure out how flexboxes 
+            work and how to set them up so that they function how I want them to. After practicing a lot in a separate document
+            with other information I had gathered from textbooks and guides, I started to become more confident with 
+            the flexboxes and started to code the website. As mentioned above it was hard to place some elements on the website that
+            didn't quite align with the flexboxes, but through a lot of trial and error I did manage to place everything where 
+            I believe it should be.</li>
+
+            <li><h4>Placing and editing the footer</h4>
+
+            Through a lot of trial and error, and making small adjustments to figure out what affected the size
+            and placement of the footer, I was able find the right settings and place for the footer. Another challenge along with this
+            was the styling and interactional (hover features) of the icon. But after some trial and error, as well as doing some research
+            I managed to find the right set of properties that needed to be given for the icons to be the right colour, as well as change 
+            to be a different colour when hovered upon. This was a brand new thing for me to learn. Additionally, I found out that the 
+            "button" tag could not have a link anchored to it, so I had to re-edit my code after validating it to create a brand new button 
+            without it being an actual button, as to make it functional.</li>
+
+            <li><h4>Adjusting the header to overlap with the image</h4>
+
+            After a long time of researching I have managed to find the solution to the problem, by making the header's position absolute.
+            However, this caused another wave of problems as mentioned above, since then the header was fixed at the top, and the rest of 
+            the flexboxes would push up and shrink, with the contacts section being completely covered by the overlapping heading. 
+            This was solved my first placing the header where I wanted it to be, by adding the right padding at the top, and then
+             adding a top padding to the contacts section which allowed it to shuffle everything down. As for the shrinking, I opted to set
+            the flex shrink to 0, which stops the flexbox from shrinking, rather than attempt to make it bigger (using grow) since it was 
+            not working previously.</li>
+        </ol>
+    </article>
+    <article>
+        <h3>TOP THREE THINGS LEARNED DURING IMPLEMENTATION</h3>
+        <ol>
+            <li class="list_resume">A deeper understanding of Object Oriented Programing through CSS. As CSS and HTML was not taught to me during GCSEs, and 
+            talking to some friends back in exam season, we had in total 3 lessons (1 hour per lesson) dedicated to CSS, HTML and JavaScript 
+            in the whole 2 years of computing A-levels, which we agreed was not enough for us to pass a test, since after those three lessons at 
+            the start of the year, we never re-visisted or revised HTML related content ever again. So the creation of this website was a big 
+            challenge for me since I had never done anything like this before, and the most I could do on a HTML page previous to this was 
+            setting up a link, an image and some default headings with a a CSS stylesheet that used no classes.</li>
+            
+            <li class="list_resume">Patience and determination when it comes to programing, and learning to take breaks. Usually for projects, I will sit down
+            and tackle through each challenge given to me after some planning, and I will focus on this and only this for some time until I believe
+            it is completed. However, this challenge was a lot harder for me, since the previous challenges I had completed where python related adding 
+            and had a lot more guidance attached to it, as well as direct help and input from teachers and peers; which may also help cope with the 
+            frustation of not getting something. So by this being an individual task, I had to learn when to stop and think things over when I got really 
+            stuck on a problem, since I knew that by sitting there I was tired out and just get more frustated with the work.</li>
+
+            <li class="list_resume">Overall, a further insight into when OOP (Object Oriented Programing) is used and why they must be used for programing purposes, 
+            i.e. maintenance, compatibility, etc. This was something very rewarding for me; as mentioned before I found OOP really hard 
+            during my A-levels and struggled to code it and understand it. And due to the initial teaching and practicing of OOP in python, 
+            I was asking my teacher why is this useful since we are doing something that is fairly complicated but we can not do anything with it inside
+            python. However, this later changed when it came to doing our project and this challenge, since you are putting the OOP practice in use, rather 
+            than creating imaginary objects without a function or purpose.</li>
+        </ol>
+    </article>
+    <!--Footer-->
+    <footer class="footer_resume">
+        <i class="fa-brands fa-linkedin" ></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter" ></i>
+        <a href="report.html" class="button">To top</a>
+    </footer>
+</body>
+</html>

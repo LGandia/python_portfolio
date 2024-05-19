@@ -1,0 +1,13 @@
+2,laura
+0,diana
+0,laura
+2,laura
+2,marta
+40,laura
+60,laura
+85,diana
+87,diana
+66,diana
+58,diana
+44,laura
+34,diana
